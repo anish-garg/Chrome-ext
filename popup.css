@@ -1,0 +1,28 @@
+body {
+    background-color: #f1f5f9;
+}
+
+.wrapper {
+    width: 350px;
+    text-align: center;
+}
+
+.title-btn {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(13, 128, 174);
+}
+
+.title-btn:hover {
+    background-color: rgb(47, 102, 142)
+}
+
+.tabTitle {
+    display: inline-block;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}

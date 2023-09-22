@@ -1,0 +1,16 @@
+{
+    "name": "Title Finder",
+    "description": "It finds the title of your current tab open in browser",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
